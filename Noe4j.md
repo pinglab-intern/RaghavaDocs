@@ -20,7 +20,7 @@ MATCH (ee:Person)-[:KNOWS]-(friends)
 WHERE ee.name = "Emil" RETURN ee, friends
 ```
 
-The above pattern matching can be used to make recommendations by incorporating the return clause:
+The above pattern matching can be used to make recommendations by incorporating the ```return``` clause:
 ``` 
 MATCH (js:Person)-[:KNOWS]-()-[:KNOWS]-(surfer)
 WHERE js.name = "Johan" AND surfer.hobby = "surfing"
