@@ -22,4 +22,4 @@ Add Edges: ``` G.add_edge(1,2) ```
 
 Creating Directed Graphs: ``` G.DiGraph() ``` 
 
-Creating Multi Graphs: ``` G.MutliGraph() ```
+Creating Multi Graphs: ``` G.MutliGraph() ``` 
