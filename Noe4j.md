@@ -27,4 +27,14 @@ WHERE js.name = "Johan" AND surfer.hobby = "surfing"
 RETURN DISTINCT surfer
 ``` 
 
-To gain a deeper understanding of how the query is working, prepend ```EXPLAIN``` or ```PROFILE``` to it
+To gain a deeper understanding of how the query is working, prepend ```EXPLAIN``` or ```PROFILE``` to it  
+
+To load data into the Neo4j browser:  
+``` LOAD CSV WITH HEADERS FROM ... ```
+
+Create relationships between the data using:  
+``` 
+MATCH (p:Product),(c:Category)
+WHERE p.categoryID = c.categoryID
+CREATE (p)-[:PART_OF]->(c)
+```
