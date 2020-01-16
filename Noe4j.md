@@ -7,12 +7,12 @@ The Neo4j Browser is the main interactive tool used to create your graph analysi
 - Frame Code View: Viewing requests and responses
 - Sidebar: Consolidates all Labels, Relationships, and Property Keys
 
-We can create a node using:
-``` CREATE (ee:Person { name: "Emil", from: "Sweden", klout: 99 }) ```
+We can create a node using:  
+``` CREATE (ee:Person { name: "Emil", from: "Sweden", klout: 99 }) ```  
 Multiple nodes can also be created by repeating the above code with different properties in a comma-separated list
 
-We can find/match a node using:
-``` MATCH (ee:Person) WHERE ee.name = "Emil" RETURN ee; ```
+We can find/match a node using:  
+``` MATCH (ee:Person) WHERE ee.name = "Emil" RETURN ee; ```. 
 
 Pattern Matching is done using the following query:
 ``` 
