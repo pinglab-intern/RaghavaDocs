@@ -22,3 +22,8 @@
 - Created a list of all paths (shortest) from the root node to different leaf nodes to gauge number of children per root
 - Conducted some EDA to map codes to their titles and get a count of first degree children per root disease 
 - Plotted simple bar and bubble plots to visualize the diseases with the maximum number of childs. 
+
+### Week 5 - Visualizations based on ICD 11 Codes and Extension Codes
+- Extracted lists of disease hierarchies for 4 main Cardiovascular disease groups: Cardiomyopathy, Ischaemic Heart Disease, Cardiac Arrhythmia and Heart Valve Disease using a recursive algorithm
+- Inputted the resulting dictionaries into a d3.js to plot the tree hierarchies
+- Got familiarized with Elastic search 
