@@ -27,3 +27,10 @@
 - Extracted lists of disease hierarchies for 4 main Cardiovascular disease groups: Cardiomyopathy, Ischaemic Heart Disease, Cardiac Arrhythmia and Heart Valve Disease using a recursive algorithm
 - Inputted the resulting dictionaries into a d3.js to plot the tree hierarchies
 - Got familiarized with Elastic search 
+
+### Week 6 - Implement ICD-11 in exploration real scenarios (e.g.,case reports)
+- Got set up on AWS server to work with the big ICD 11 data
+- Created a list of all Cardiovascular diseases using recursion 
+- Imported this file into the AWS server to run the indexing and the searching python scripts using elastic search which outputted a list of dictionaries with pmid, title and abstract of disease
+- Then used the pmid and title to come up with a data frame of number of occurences of each disease in our case records 
+- Then on this dataframe I performed TF-IDF and clustering using K-Means - Results were inconclusive
