@@ -34,3 +34,9 @@
 - Imported this file into the AWS server to run the indexing and the searching python scripts using elastic search which outputted a list of dictionaries with pmid, title and abstract of disease
 - Then used the pmid and title to come up with a data frame of number of occurences of each disease in our case records 
 - Then on this dataframe I performed TF-IDF and clustering using K-Means - Results were inconclusive
+
+### Week 7 -  Implement ICD-11 in exploration real scenarios (e.g.,case reports) - Continued
+- After results were inconclusive from last week, performed t-SNE on the titles to visually see how they were clustered
+- Found a large number of very smalll clusters - probably why results were inconclusive using K-means
+- Then narrowed down to 4 particular clusters, plotted them again using t-SNE and found out the most commonly used words per cluster
+- Repeated the same process for titles realted to heart failures and as expected found that heart and failures were the most commonly used words in these titles
